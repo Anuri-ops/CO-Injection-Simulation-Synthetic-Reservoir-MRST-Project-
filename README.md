@@ -1,4 +1,4 @@
-# CO₂ Injection Simulation – Synthetic Reservoir (MRST Project)
+# CO₂ Injection Simulation – Synthetic Reservoir 
 
 This project simulates **CO₂ injection into a 2D synthetic saline aquifer** using the MATLAB Reservoir Simulation Toolbox (MRST). It visualises the movement of the CO₂ plume over time and forms the foundation for enhanced oil recovery (EOR) and carbon storage studies.
 
