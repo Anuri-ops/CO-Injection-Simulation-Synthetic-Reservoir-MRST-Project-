@@ -1,14 +1,14 @@
 # CO₂ Injection Simulation – Synthetic Reservoir (MRST Project)
 
-This project simulates **CO₂ injection into a 2D synthetic saline aquifer** using the MATLAB Reservoir Simulation Toolbox (MRST). It visualizes the movement of the CO₂ plume over time and forms the foundation for enhanced oil recovery (EOR) and carbon storage studies.
+This project simulates **CO₂ injection into a 2D synthetic saline aquifer** using the MATLAB Reservoir Simulation Toolbox (MRST). It visualises the movement of the CO₂ plume over time and forms the foundation for enhanced oil recovery (EOR) and carbon storage studies.
 
 ---
 
 ##  Objective
 
-To model and visualize the dynamic behavior of injected CO₂ in a homogeneous reservoir environment, and build transferable knowledge in:
+To model and visualise the dynamic behaviour of injected CO₂ in a homogeneous reservoir environment, and build transferable knowledge in:
 - Numerical reservoir simulation
-- Subsurface flow visualization
+- Subsurface flow visualisation
 - Plume migration monitoring (for CCS or EOR)
 
 ---
@@ -98,11 +98,13 @@ At time step 10, the CO₂ plume had visibly migrated from the injector toward t
 
 - How fluid properties impact plume migration  
 - CO₂ front propagation in a simple homogeneous reservoir  
-- Saturation visualization using `plotCellData()`  
+- Saturation visualisation using `plotCellData()`  
 - Fundamental workflow for CCS and gas injection studies
 
+---
 
-This project was developed to build practical skills in reservoir simulation using MRST and to contribute to the understanding of CO₂ behavior in subsurface systems. It also forms the base case for future work, including:
+##  Note
+This project was developed to build practical skills in reservoir simulation using MRST and to contribute to the understanding of CO₂ behaviour in subsurface systems. It also forms the base case for future work, including:
 
 - Water + CO₂ co-injection (WAG-style simulation)  
 - Heterogeneous grid design  
