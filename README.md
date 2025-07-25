@@ -73,7 +73,7 @@ At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
 ---
 
-##  What You’ll Learn
+##  Key Takeaways
 
 - Grid generation and geometry computation in MRST
 - Setting up rock and fluid properties
