@@ -7,7 +7,7 @@ This project simulates **CO₂ injection** into a 2D synthetic saline aquifer us
 
 ##  Objective
 
-Model and visualize the behavior of injected CO₂ in a homogeneous reservoir using:
+Model and visualise the behaviour of injected CO₂ in a homogeneous reservoir using:
 - A 2D grid (60 × 40 cells)
 - Homogeneous rock and fluid properties
 - One injector and one producer
@@ -58,7 +58,7 @@ state0 = initResSol(G, 100*barsa, [1, 0]);
 
 At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
-![CO₂ Saturation](./co2_saturation_t10.png)
+![CO₂ Saturation](co2_saturation_t10.png)
 
 ---
 
