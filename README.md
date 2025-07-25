@@ -78,15 +78,12 @@ At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 - Grid generation and geometry computation in MRST
 - Setting up rock and fluid properties
 - Well configuration and control types
-- Saturation visualization
-- Basic CO₂ storage behavior in porous media
+- Saturation visualisation
+- Basic CO₂ storage behaviour in porous media
 
 ---
 
-##  Author Notes
+##   Notes
 
-This project was created to strengthen foundational understanding of reservoir simulation using MRST. It supports my portfolio in:
-- Reservoir engineering
-- Carbon capture and storage (CCS)
-- Numerical modeling and subsurface visualization
+This project was created to strengthen the foundational understanding of reservoir simulation using MRST.
 
