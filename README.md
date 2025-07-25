@@ -4,7 +4,7 @@ This project simulates **CO₂ injection into a 2D synthetic saline aquifer** us
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To model and visualize the dynamic behavior of injected CO₂ in a homogeneous reservoir environment, and build transferable knowledge in:
 - Numerical reservoir simulation
@@ -13,7 +13,7 @@ To model and visualize the dynamic behavior of injected CO₂ in a homogeneous r
 
 ---
 
-## 🛠️ Tools and Framework
+##  Tools and Framework
 
 - **MRST Version**: 2025a
 - **Modules Used**:  
@@ -23,7 +23,7 @@ To model and visualize the dynamic behavior of injected CO₂ in a homogeneous r
 
 ---
 
-## 📐 Model Setup
+##  Model Setup
 
 | Parameter        | Value                  |
 |------------------|------------------------|
@@ -36,7 +36,7 @@ To model and visualize the dynamic behavior of injected CO₂ in a homogeneous r
 
 ---
 
-## 🛢️ Fluids
+##  Fluids
 
 | Phase | Viscosity (cP) | Density (kg/m³) |
 |-------|----------------|-----------------|
@@ -45,7 +45,7 @@ To model and visualize the dynamic behavior of injected CO₂ in a homogeneous r
 
 ---
 
-## 🔩 Well Configuration
+##  Well Configuration
 
 - **Injector**: Top-left corner of grid  
   - Type: Rate-controlled  
@@ -58,7 +58,7 @@ To model and visualize the dynamic behavior of injected CO₂ in a homogeneous r
 
 ---
 
-## ⏱️ Simulation Details
+##  Simulation Details
 
 - Total time: 100 days  
 - Number of steps: 10 (10 days each)  
@@ -75,7 +75,7 @@ state0 = initResSol(G, 100*barsa, [1, 0]);  % 100% brine saturation
 
 ---
 
-## 📊 Result Preview
+##  Result Preview
 
 At time step 10, the CO₂ plume had visibly migrated from the injector toward the producer.
 
@@ -83,7 +83,7 @@ At time step 10, the CO₂ plume had visibly migrated from the injector toward t
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Ensure MRST is installed, and run:
    ```matlab
@@ -94,35 +94,16 @@ At time step 10, the CO₂ plume had visibly migrated from the injector toward t
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 - How fluid properties impact plume migration  
 - CO₂ front propagation in a simple homogeneous reservoir  
 - Saturation visualization using `plotCellData()`  
 - Fundamental workflow for CCS and gas injection studies
 
----
-
-## 📂 Files Included
-
-| File                        | Description                           |
-|-----------------------------|---------------------------------------|
-| `co2_injection_simulation.m` | Main simulation script                |
-| `co2_saturation_t10.png`    | Output plot at final time step        |
-| `README.md`                 | Project documentation                 |
-
----
-
-## 🧠 Author Note
 
 This project was developed to build practical skills in reservoir simulation using MRST and to contribute to the understanding of CO₂ behavior in subsurface systems. It also forms the base case for future work, including:
 
 - Water + CO₂ co-injection (WAG-style simulation)  
 - Heterogeneous grid design  
 - Recovery factor tracking and economic analysis
-
----
-
-## 📎 License
-
-MIT License – Free to use with credit.
