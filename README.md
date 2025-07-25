@@ -79,7 +79,7 @@ state0 = initResSol(G, 100*barsa, [1, 0]);  % 100% brine saturation
 
 At time step 10, the CO₂ plume had visibly migrated from the injector toward the producer.
 
-![CO₂ Saturation](co2_saturation_t10.png)
+![CO₂ Saturation](images/co2_saturation_t10.png)
 
 ---
 
