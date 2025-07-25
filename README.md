@@ -5,7 +5,7 @@ This project simulates **CO₂ injection** into a 2D synthetic saline aquifer us
 
 ---
 
-## 📌 Objective
+##  Objective
 
 Model and visualize the behavior of injected CO₂ in a homogeneous reservoir using:
 - A 2D grid (60 × 40 cells)
@@ -15,7 +15,7 @@ Model and visualize the behavior of injected CO₂ in a homogeneous reservoir us
 
 ---
 
-## 🧰 Tools and Framework
+##  Tools and Framework
 
 - **MRST (2025a)** – Modules used:
   - `ad-core`, `ad-blackoil`, `mrst-gui`
@@ -25,7 +25,7 @@ Model and visualize the behavior of injected CO₂ in a homogeneous reservoir us
 
 ---
 
-## 🧱 Model Setup
+##  Model Setup
 
 - **Grid**: 600 × 400 m domain, 10 × 10 m cells  
 - **Porosity**: 20%  
@@ -36,7 +36,7 @@ Model and visualize the behavior of injected CO₂ in a homogeneous reservoir us
 
 ---
 
-## ⚙️ Simulation Details
+##  Simulation Details
 
 ```matlab
 G = cartGrid([60, 40], [600, 400]);
@@ -54,7 +54,7 @@ state0 = initResSol(G, 100*barsa, [1, 0]);
 
 ---
 
-## 📊 Result Preview
+##  Result Preview
 
 At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
@@ -62,7 +62,7 @@ At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
 ---
 
-## 📥 How to Run
+##  How to Run
 
 1. Ensure MRST 2025a is installed and `ad-core`, `ad-blackoil`, `mrst-gui` are added:
    ```matlab
@@ -73,7 +73,7 @@ At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
 ---
 
-## 📚 What You’ll Learn
+##  What You’ll Learn
 
 - Grid generation and geometry computation in MRST
 - Setting up rock and fluid properties
@@ -83,15 +83,10 @@ At Time Step 10 (end of simulation), CO₂ saturation near the injector was:
 
 ---
 
-## 🧠 Author Notes
+##  Author Notes
 
 This project was created to strengthen foundational understanding of reservoir simulation using MRST. It supports my portfolio in:
 - Reservoir engineering
 - Carbon capture and storage (CCS)
 - Numerical modeling and subsurface visualization
 
----
-
-## 📎 License
-
-MIT License – Free to use with attribution.
